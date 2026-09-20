@@ -16,7 +16,7 @@ from aiogram.types import (
     WebAppInfo
 )
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8275673607:AAF2mIba2Hu1V4gckWixHZLPT96aTK2DxC0")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8275673607:AAFFdZ8Bc-oQI96_j91jybjQ_SEIsnSVaFI")
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN Railway Variables bo'limida berilishi kerak")
 
