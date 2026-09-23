@@ -3,6 +3,7 @@ import json
 import logging
 import os
 import html
+import re
 from pathlib import Path
 from aiogram import Bot, Dispatcher, F, types
 from aiogram.client.default import DefaultBotProperties
@@ -11,16 +12,14 @@ from aiogram.filters import CommandStart, CommandObject, Command
 from aiogram.types import (
     ReplyKeyboardMarkup, 
     KeyboardButton, 
-    InlineKeyboardMarkup, 
-    InlineKeyboardButton, 
     WebAppInfo
 )
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8275673607:AAFFdZ8Bc-oQI96_j91jybjQ_SEIsnSVaFI")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN Railway Variables bo'limida berilishi kerak")
 
-ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))  # Telegram ID-ingizni kiriting
+ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))
 MOVIES_FILE = Path(__file__).resolve().parent / "movies.json"
 APP_URL = "https://etvcinema.vercel.app"
 
@@ -42,7 +41,18 @@ def load_movies():
         movies_cache = {}
     return movies_cache
 
-# Bot obyektida default parse_mode ni HTML ga sozlaymiz
+def extract_movie_title(raw_caption: str) -> str:
+    """Kelgan caption ichidan kino nomini ajratib olish"""
+    if not raw_caption:
+        return "Noma'lum kino"
+    
+    match = re.search(r"(?:Nomi|Film|Kino|Name)\s*:\s*([^\n]+)", raw_caption, re.IGNORECASE)
+    if match:
+        return match.group(1).strip()
+    
+    first_line = raw_caption.split("\n")[0].strip()
+    return first_line if first_line else "Noma'lum kino"
+
 bot = Bot(
     token=BOT_TOKEN, 
     default=DefaultBotProperties(parse_mode=ParseMode.HTML)
@@ -95,24 +105,30 @@ async def reload_handler(message: types.Message):
     load_movies()
     await message.answer("🔄 <b>Kinolar ro'yxati qayta yuklandi!</b>")
 
-@dp.message(F.video)
-async def catch_video_id(message: types.Message):
-    raw_caption = message.caption or "🎬 Kino nomi ko'rsatilmagan"
-    safe_caption = html.escape(raw_caption)
-    
+@dp.message(F.video | F.document)
+async def catch_video_info(message: types.Message):
+    media = message.video or message.document
+    if not media:
+        return
+
+    file_id = media.file_id
+    raw_caption = message.caption or ""
+    movie_title = extract_movie_title(raw_caption)
+
     response_text = (
-        f"📦 <b>Video ID olindi:</b>\n<code>{message.video.file_id}</code>\n\n"
-        f"📌 <b>Tavsifi:</b>\n{safe_caption}"
+        f"🎬 <b>Kino nomi:</b> {html.escape(movie_title)}\n"
+        f"🎭 <b>Janr:</b> Fantastika\n"
+        f"⭐ <b>Baho:</b> 9/10\n\n"
+        f"🔑 <b>File ID:</b>\n<code>{file_id}</code>"
     )
+
     await message.answer(response_text)
 
 @dp.message(F.text)
 async def get_movie_by_code(message: types.Message):
-    # Saytni ochish tugmasini e'tiborsiz qoldirish
     if message.text == "🚀 Saytni ochish":
         return
 
-    # Noma'lum buyruqlar kelganida
     if message.text.startswith("/"):
         await message.answer("⚠️ <b>Noma'lum buyruq!</b>\nKino ko'rish uchun faqat kodini yuboring.")
         return
@@ -129,9 +145,7 @@ async def get_movie_by_code(message: types.Message):
     else:
         await message.answer("⚠️ <b>Bunday kodli kino topilmadi!</b>\n\nIltimos, kodni to'g'ri kiriting ❌")
 
-
 async def health_check(reader, writer):
-    """Railway health check uchun yengil HTTP endpoint."""
     try:
         await reader.read(1024)
         response = (
@@ -147,7 +161,6 @@ async def health_check(reader, writer):
         writer.close()
         await writer.wait_closed()
 
-
 async def main():
     logging.basicConfig(level=logging.INFO)
     load_movies()
@@ -157,7 +170,13 @@ async def main():
     logging.info("Health server %s portida ishga tushdi", port)
 
     try:
-        await dp.start_polling(bot)
+        while True:
+            try:
+                await dp.start_polling(bot)
+                break
+            except Exception:
+                logging.exception("Telegram polling to'xtadi, 5 soniyadan keyin qayta ulanadi")
+                await asyncio.sleep(5)
     finally:
         health_server.close()
         await health_server.wait_closed()
