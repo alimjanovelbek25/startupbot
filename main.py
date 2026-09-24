@@ -15,7 +15,7 @@ from aiogram.types import (
     WebAppInfo
 )
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8275673607:AAGlgnHRI6Z9KWMhRboGyASQUaVsvHpKugc")
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN Railway Variables bo'limida berilishi kerak")
 
@@ -170,13 +170,7 @@ async def main():
     logging.info("Health server %s portida ishga tushdi", port)
 
     try:
-        while True:
-            try:
-                await dp.start_polling(bot)
-                break
-            except Exception:
-                logging.exception("Telegram polling to'xtadi, 5 soniyadan keyin qayta ulanadi")
-                await asyncio.sleep(5)
+        await dp.start_polling(bot)
     finally:
         health_server.close()
         await health_server.wait_closed()
