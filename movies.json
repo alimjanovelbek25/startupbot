@@ -334,6 +334,38 @@
    "file_id": "BAACAgQAAxkBAAIF2mrCgTfu-rPNMVn_ugZdVRgChMtOAAIDCgACfskoUPCWRhvQtMf4PQQ",
    "caption": "🎬 **Kino nomi:**  🎬   Halol O'gri\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
  },
+   "184": {
+   "file_id": "BAACAgIAAxkBAAIG-mrGrOIti0ex7KuPJSnz3-b1-hUUAAJ2GAACGHgAAUsm74LSBgM1lD0E",
+   "caption": "🎬 **Kino nomi:**  🎬   King Kong\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+ },
+   "185": {
+   "file_id": "BAACAgEAAxkBAAIG-2rGrOJxPkyAFcbK3ANxMjLbuY2pAALEAAMTtBBHI8c1o8K3eX49BA",
+   "caption": "🎬 **Kino nomi:**  🎬   King Kong 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+ },
+   "186": {
+   "file_id": "BAACAgQAAxkBAAIG_GrGrOKewxiHhEHBuv9DKxVC5HOnAAI7CQACihEwU-dJYll0FdmNPQQ",
+   "caption": "🎬 **Kino nomi:**  🎬   King Kong Godzilaga qarshi 3\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+ },
+   "187": {
+   "file_id": "BAACAgQAAxkBAAIHAAFqxq4l3vKOaoc0yjV4jbApsAUMbwACIQ0AAm9pOFDae1EoiJE_Fj0E",
+   "caption": "🎬 **Kino nomi:**  🎬   Shovvoz Getsbi\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!",
+   "posterUrl": "https://asilmedia.org/rasmlar/images/2021/10/30/nimh1rrDDLhgpG8XAYoUZXHYwb6.jpg"
+ },
+   "188": {
+   "file_id": "BAACAgQAAxkBAAIHAmrGrprCPJR-gAbjHGfPh3Ll_v2aAAL9CAACLEQYUlFL5L2R3_GYPQQ",
+   "caption": "🎬 **Kino nomi:**  🎬   Qora Libosli Odamlar 1\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!",
+   "posterUrl": "https://avatars.mds.yandex.net/i?id=d5a1f6bf34e29509271a0b8e41d2b16c26a05cad-16973011-images-thumbs&n=13"
+ },
+   "189": {
+   "file_id": "BAACAgQAAxkBAAIHA2rGrpr4sUOmuL_jtRazJVbDe7PLAAIeCQACD0wZUvjI3emH_hpVPQQ",
+   "caption": "🎬 **Kino nomi:**  🎬   Qora Libosli Odamlar 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!",
+   "posterUrl": "https://images-s.kinorium.com/movie/cover/109442/w1500_37651436.jpg"
+ },
+   "190": {
+   "file_id": "BAACAgQAAxkBAAIHBGrGrppBRN0RJjNtrleBgMPaDplQAAJ-CQACTqMYUkCIOAfVb8Y6PQQ",
+   "caption": "🎬 **Kino nomi:**  🎬   Qora Libosli Odamlar 3\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!",
+   "posterUrl": "BAACAgQAAxkBAAIHBGrGrppBRN0RJjNtrleBgMPaDplQAAJ-CQACTqMYUkCIOAfVb8Y6PQQ"
+ },
 
 
 
@@ -544,31 +576,59 @@
 
 
 "3000": {
-    "id": "BAACAgIAAxkBAAIGbmrFUF-2xw_Ob1w-BjKIB5QzDOKnAAJ5SgAC4MVoS5pt8T1nlqrxPQQ",
+    "file_id": "BAACAgIAAxkBAAIGbmrFUF-2xw_Ob1w-BjKIB5QzDOKnAAJ5SgAC4MVoS5pt8T1nlqrxPQQ",
     "caption": "🎬 **Kino nomi:**  🎬  Kungfu Panda 4\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
 "3001": {
-    "id": "BAACAgQAAxkBAAIGcmrFVKsAAZgiBhfn7H51FWnBEjbQqwACygwAAlgauFHnwm0_Fpbvpj0E",
+    "file_id": "BAACAgQAAxkBAAIGcmrFVKsAAZgiBhfn7H51FWnBEjbQqwACygwAAlgauFHnwm0_Fpbvpj0E",
     "caption": "🎬 **Kino nomi:**  🎬  Kungfu Panda 3\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
   "3003": {
-    "id": "BAACAgQAAxkBAAIGdmrFVVl1e8fwtGJlaLpqRxGOzj88AAJgDQAC0bKpUVeeleI2qAvFPQQ",
+    "file_id": "BAACAgQAAxkBAAIGdmrFVVl1e8fwtGJlaLpqRxGOzj88AAJgDQAC0bKpUVeeleI2qAvFPQQ",
     "caption": "🎬 **Kino nomi:**  🎬  Kungfu Panda 1\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
   "3004": {
-    "id": "BAACAgQAAxkBAAIGeGrFVX92-I11rdWt6gcssBnC0GViAAL8EgACxIHBUdGnm-d5ul7wPQQ",
+    "file_id": "BAACAgQAAxkBAAIGeGrFVX92-I11rdWt6gcssBnC0GViAAL8EgACxIHBUdGnm-d5ul7wPQQ",
     "caption": "🎬 **Kino nomi:**  🎬  Rapunzel\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
   "3006": {
-    "id": "BAACAgQAAxkBAAIGfGrFVmwfxr5Jp2dhcBUXGMGOqhrkAAKoGgACfzD5U7Ld_WGh8YHqPQQ",
+    "file_id": "BAACAgQAAxkBAAIGfGrFVmwfxr5Jp2dhcBUXGMGOqhrkAAKoGgACfzD5U7Ld_WGh8YHqPQQ",
     "caption": "🎬 **Kino nomi:**  🎬 Yaxshi bo'lish osonmi 4\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
   "3007": {
-    "id": "BAACAgQAAxkBAAIGfmrFVtYgU_khCifhoUs4nYoON7OlAAL7BgACU414UR3CXnetbansPQQ",
+    "file_id": "BAACAgQAAxkBAAIGfmrFVtYgU_khCifhoUs4nYoON7OlAAL7BgACU414UR3CXnetbansPQQ",
     "caption": "🎬 **Kino nomi:**  🎬 Yaxshi bo'lish osonmi 3\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
   "3008": {
-    "id": "BAACAgQAAxkBAAIGgGrFVydPoaCdJKHoYbjboOYcQ1v0AAIcCgACIl1wUSoy31EPc33sPQQ",
+    "file_id": "BAACAgQAAxkBAAIGgGrFVydPoaCdJKHoYbjboOYcQ1v0AAIcCgACIl1wUSoy31EPc33sPQQ",
     "caption": "🎬 **Kino nomi:**  🎬 Yaxshi bo'lish osonmi 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
-  }
+  },
+  "3009": {
+   "file_id": "BAACAgEAAxkBAAIF2GrCgKl8pZHo12tzn8j0zjvWP3tEAAKwAwACcHVRRQRvEnr_lQklPQQ",
+   "caption": "🎬 **Kino nomi:**  🎬   Kichkina Nikolya\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+ },
+"3010": {
+   "file_id": "BAACAgIAAxkBAAIG7mrGqjljlc7a_9pdLQZ83UzSW0yEAAJhKQACymRISQaCRCmEPOBhPQQ",
+   "caption": "🎬 **Kino nomi:**  🎬   Kichkina Xo'jayin\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+},
+  "3011": {
+    "file_id": "BAACAgQAAxkBAAIG8GrGquECub4AAYfBHlyq4R8g_oczQwACcAsAAsUnaFAXKBn8QmJtsT0E",
+    "caption": "🎬 **Kino nomi:**  🎬   Kichkina Xo'jayin 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+ },
+ "3012": {
+    "file_id": "BAACAgUAAxkBAAIG8mrGqy01iglSGFXqa1UDqGGb7VQXAAJGEAACV24JVzVix96qBLjyPQQ",
+    "caption": "🎬 **Kino nomi:**  🎬   Moana\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+ },
+  "3013": {
+    "file_id": "BAACAgQAAxkBAAIG9GrGq5N6NFPHFDbYxBZUYyESj7_UAALTHAACBIshU10vBzQZYYbqPQQ",
+    "caption": "🎬 **Kino nomi:**  🎬   Moana 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+ },
+  "3014": {
+    "file_id": "BAACAgQAAxkBAAIG9mrGq9ZibpZjogtKNuFWqAkkgL-JAAKgIgACsp8BUd9ABt_B64WoPQQ",
+    "caption": "🎬 **Kino nomi:**  🎬   Moana 3\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+ },
+  "3015": {
+    "file_id": "BAACAgQAAxkBAAIG-GrGrCz7USaNKEL_9i3ndugXQgZnAAJCEAAC-i4JUAezGaO6lbmZPQQ",
+    "caption": "🎬 **Kino nomi:**  🎬   Bolt\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+ }
 }

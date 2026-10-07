@@ -5,6 +5,7 @@ import os
 import html
 import re
 from pathlib import Path
+from dotenv import load_dotenv  # <-- .env faylni o'qish uchun
 from aiogram import Bot, Dispatcher, F, types
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
@@ -15,13 +16,16 @@ from aiogram.types import (
     WebAppInfo
 )
 
+# .env faylini yuklaymiz (lokal kompyuterda ishlashi uchun)
+load_dotenv()
+
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
-    raise RuntimeError("BOT_TOKEN Railway Variables bo'limida berilishi kerak")
+    raise RuntimeError("BOT_TOKEN topilmadi! .env faylingizni yoki Railway Variables bo'limini tekshiring.")
 
 ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))
 MOVIES_FILE = Path(__file__).resolve().parent / "movies.json"
-APP_URL = "https://etvcinema.vercel.app"
+APP_URL = "https://etvcinema.netlify.app"
 
 movies_cache = {}
 
@@ -32,6 +36,9 @@ def load_movies():
         try:
             with open(MOVIES_FILE, "r", encoding="utf-8") as f:
                 movies_cache = json.load(f)
+                for movie in movies_cache.values():
+                    if "file_id" not in movie and "id" in movie:
+                        movie["file_id"] = movie["id"]
                 logging.info(f"✅ {len(movies_cache)} ta kino keshga yuklandi.")
         except Exception as e:
             logging.error(f"❌ JSON faylni o'qishda xatolik: {e}")
