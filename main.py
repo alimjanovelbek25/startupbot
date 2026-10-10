@@ -25,7 +25,7 @@ if not BOT_TOKEN:
 
 ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))
 MOVIES_FILE = Path(__file__).resolve().parent / "movies.json"
-APP_URL = "https://etvcinema.netlfiy.app"
+APP_URL = "https://etvcinema.netlify.app/"
 
 movies_cache = {}
 
