@@ -514,8 +514,34 @@
     "file_id": "BAACAgIAAxkBAAIKG2rNH-_nQxRQn9uhr_CYm2eJ59qCAAKoDgACq1bISCcRk3tcAaDOPQQ",
      "caption": "🎬 **Kino nomi:**  🎬     Changalzor  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
     },
-  
-
+      "225": {
+    "file_id": "BAACAgQAAxkBAAIKhWrQyzvKcr2rTSU_7kIPPly0y1awAAKlCAACFElRUsEAATu5NXumgD0E",
+     "caption": "🎬 **Kino nomi:**  🎬     Yangi O'rgimchak Odam 2   \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+  },
+    "226": {
+    "file_id": "BAACAgQAAxkBAAIKh2rQy9JclkeaJG_94yzi7of5eaWBAAIUCgACNmRZUrsYh6--xX4IPQQ",
+     "caption": "🎬 **Kino nomi:**  🎬     Yangi O'rgimchak Odam 1  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+    },
+      "227": {
+    "file_id": "BAACAgQAAxkBAAIKjWrQ1zHVA44VSHNKDuD7nB6YaGXEAAJVBgACC59IUohRsICgzsK7PQQ",
+     "caption": "🎬 **Kino nomi:**  🎬     Niqob 1  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+  },
+  "228": {
+    "file_id": "BAACAgQAAxkBAAIKjmrQ1zFdXLdb1h7Dq_mgPOpsmm3JAAK6BQAC2P9RUsOLJg7SVSwQPQQ",
+     "caption": "🎬 **Kino nomi:**  🎬     Niqob 2  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+  },
+    "229": {
+    "file_id": "BAACAgQAAxkBAAIKk2rQ2klHYdgs1_FMdgABJmYwgqZgpAAClgkAAlTB-VD-Vff702RY7j0E",
+     "caption": "🎬 **Kino nomi:**  🎬     Maymunlar Sayyorasi 1  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+  },
+  "230": {
+    "file_id": "BAACAgQAAxkBAAIKlWrQ3C_MRVT2jS4RpKaEZ-vFRpoXAAKYCQACVMH5UBYSRQkSoLKzPQQ",
+     "caption": "🎬 **Kino nomi:**  🎬     Maymunlar Sayyorasi 2  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+  },
+  "231": {
+    "file_id": "BAACAgQAAxkBAAIKl2rQ3FW6Yj9Uo-oPgv1sTBGM-3j6AAKZCQACVMH5UJCHW_rnVV6CPQQ",
+     "caption": "🎬 **Kino nomi:**  🎬     Maymunlar Sayyorasi 3  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+  },
 
 
 
@@ -566,106 +592,83 @@
    
 },
 
-
-
 "3000": {
-    "file_id": "BAACAgIAAxkBAAIGbmrFUF-2xw_Ob1w-BjKIB5QzDOKnAAJ5SgAC4MVoS5pt8T1nlqrxPQQ",
+    "id": "BAACAgIAAxkBAAIGbmrFUF-2xw_Ob1w-BjKIB5QzDOKnAAJ5SgAC4MVoS5pt8T1nlqrxPQQ",
     "caption": "🎬 **Kino nomi:**  🎬  Kungfu Panda 4\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+
   },
 "3001": {
-    "file_id": "BAACAgQAAxkBAAIGcmrFVKsAAZgiBhfn7H51FWnBEjbQqwACygwAAlgauFHnwm0_Fpbvpj0E",
+    "id": "BAACAgQAAxkBAAIGcmrFVKsAAZgiBhfn7H51FWnBEjbQqwACygwAAlgauFHnwm0_Fpbvpj0E",
     "caption": "🎬 **Kino nomi:**  🎬  Kungfu Panda 3\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+
   },
-  "3003": {
-    "file_id": "BAACAgQAAxkBAAIGdmrFVVl1e8fwtGJlaLpqRxGOzj88AAJgDQAC0bKpUVeeleI2qAvFPQQ",
+"3002": {
+    "id": "BAACAgQAAxkBAAIGdGrFVPSTv6b6GUOCUYQ4IWqG-tfiAAJwDAACWBqoUbNeepPL9-RLPQQ",
+    "caption": "🎬 **Kino nomi:**  🎬  Kungfu Panda 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+
+  },
+"3003": {
+    "id": "BAACAgQAAxkBAAIGdmrFVVl1e8fwtGJlaLpqRxGOzj88AAJgDQAC0bKpUVeeleI2qAvFPQQ",
     "caption": "🎬 **Kino nomi:**  🎬  Kungfu Panda 1\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+
   },
-  "3004": {
-    "file_id": "BAACAgQAAxkBAAIGeGrFVX92-I11rdWt6gcssBnC0GViAAL8EgACxIHBUdGnm-d5ul7wPQQ",
+"3004": {
+    "id": "BAACAgQAAxkBAAIGeGrFVX92-I11rdWt6gcssBnC0GViAAL8EgACxIHBUdGnm-d5ul7wPQQ",
     "caption": "🎬 **Kino nomi:**  🎬  Rapunzel\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+
   },
-  "3006": {
-    "file_id": "BAACAgQAAxkBAAIGfGrFVmwfxr5Jp2dhcBUXGMGOqhrkAAKoGgACfzD5U7Ld_WGh8YHqPQQ",
+"3005": {
+    "id": "BAACAgQAAxkBAAIGemrFVfRCNeH7aAvu0XgWryH_wx2dAAKXGAACrSjRU__CabfK8FVXPQQ",
+    "caption": "🎬 **Kino nomi:**  🎬 Ajdar O'rgatuvchilar\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+    
+  },
+"3006": {
+    "id": "BAACAgQAAxkBAAIGfGrFVmwfxr5Jp2dhcBUXGMGOqhrkAAKoGgACfzD5U7Ld_WGh8YHqPQQ",
     "caption": "🎬 **Kino nomi:**  🎬 Yaxshi bo'lish osonmi 4\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+    
   },
-  "3007": {
-    "file_id": "BAACAgQAAxkBAAIGfmrFVtYgU_khCifhoUs4nYoON7OlAAL7BgACU414UR3CXnetbansPQQ",
+"3007": {
+    "id": "BAACAgQAAxkBAAIGfmrFVtYgU_khCifhoUs4nYoON7OlAAL7BgACU414UR3CXnetbansPQQ",
     "caption": "🎬 **Kino nomi:**  🎬 Yaxshi bo'lish osonmi 3\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+    
   },
-  "3008": {
-    "file_id": "BAACAgQAAxkBAAIGgGrFVydPoaCdJKHoYbjboOYcQ1v0AAIcCgACIl1wUSoy31EPc33sPQQ",
+"3008": {
+    "id": "BAACAgQAAxkBAAIGgGrFVydPoaCdJKHoYbjboOYcQ1v0AAIcCgACIl1wUSoy31EPc33sPQQ",
     "caption": "🎬 **Kino nomi:**  🎬 Yaxshi bo'lish osonmi 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
   "3009": {
-   "file_id": "BAACAgEAAxkBAAIF2GrCgKl8pZHo12tzn8j0zjvWP3tEAAKwAwACcHVRRQRvEnr_lQklPQQ",
-   "caption": "🎬 **Kino nomi:**  🎬   Kichkina Nikolya\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+    "file_id": "BAACAgEAAxkBAAIF2GrCgKl8pZHo12tzn8j0zjvWP3tEAAKwAwACcHVRRQRvEnr_lQklPQQ",
+    "caption": "🎬 **Kino nomi:**  🎬   Kichkina Nikolya\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+  },
+  "3010": {
+    "file_id": "BAACAgIAAxkBAAIG7mrGqjljlc7a_9pdLQZ83UzSW0yEAAJhKQACymRISQaCRCmEPOBhPQQ",
+    "caption": "🎬 **Kino nomi:**  🎬   Kichkina Xo'jayin\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
  },
-"3010": {
-   "file_id": "BAACAgIAAxkBAAIG7mrGqjljlc7a_9pdLQZ83UzSW0yEAAJhKQACymRISQaCRCmEPOBhPQQ",
-   "caption": "🎬 **Kino nomi:**  🎬   Kichkina Xo'jayin\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
-},
   "3011": {
     "file_id": "BAACAgQAAxkBAAIG8GrGquECub4AAYfBHlyq4R8g_oczQwACcAsAAsUnaFAXKBn8QmJtsT0E",
     "caption": "🎬 **Kino nomi:**  🎬   Kichkina Xo'jayin 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+
  },
- "3012": {
-    "file_id": "BAACAgUAAxkBAAIG8mrGqy01iglSGFXqa1UDqGGb7VQXAAJGEAACV24JVzVix96qBLjyPQQ",
-    "caption": "🎬 **Kino nomi:**  🎬   Moana\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
- },
-  "3013": {
-    "file_id": "BAACAgQAAxkBAAIG9GrGq5N6NFPHFDbYxBZUYyESj7_UAALTHAACBIshU10vBzQZYYbqPQQ",
-    "caption": "🎬 **Kino nomi:**  🎬   Moana 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
- },
-  "3014": {
-    "file_id": "BAACAgQAAxkBAAIG9mrGq9ZibpZjogtKNuFWqAkkgL-JAAKgIgACsp8BUd9ABt_B64WoPQQ",
-    "caption": "🎬 **Kino nomi:**  🎬   Moana 3\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
- },
-  "3015": {
-    "file_id": "BAACAgQAAxkBAAIG-GrGrCz7USaNKEL_9i3ndugXQgZnAAJCEAAC-i4JUAezGaO6lbmZPQQ",
-    "caption": "🎬 **Kino nomi:**  🎬   Bolt\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
- },
-     "3016": {
-      "file_id": "BAACAgIAAxkBAAIJ-2rNFllAMn8dIC3xTUhOZWBMZ_dlAAJRNwACa4yYSHF_iEhoCt6DPQQ",
-      "caption": "🎬 **Kino nomi:**  🎬   Nemo 1\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+    "3012": {
+      "file_id": "BAACAgUAAxkBAAIG8mrGqy01iglSGFXqa1UDqGGb7VQXAAJGEAACV24JVzVix96qBLjyPQQ",
+      "caption": "🎬 **Kino nomi:**  🎬   Moana\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
-    "3017": {
-      "file_id": "BAACAgQAAxkBAAIJZmrKPVL8cZaxZMpCaMiirVW8AAH5hQACEhIAAnIAAdFRoDbH_GMb2W89BA",
-      "caption": "🎬 **Kino nomi:**  🎬   Nemo 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+    "3013": {
+      "file_id": "BAACAgQAAxkBAAIG9GrGq5N6NFPHFDbYxBZUYyESj7_UAALTHAACBIshU10vBzQZYYbqPQQ",
+      "caption": "🎬 **Kino nomi:**  🎬   Moana 2\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
-    "3018": {
-      "file_id": "BAACAgQAAxkBAAIJc2rKPrk8_OyjcPdAFsFK6JVoFbf_AAJmEAACgGhYUbRKZUYQiCAZPQQ",
-      "caption": "🎬 **Kino nomi:**  🎬 Madagaskar 1  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+    "3014": {
+      "file_id": "BAACAgQAAxkBAAIG9mrGq9ZibpZjogtKNuFWqAkkgL-JAAKgIgACsp8BUd9ABt_B64WoPQQ",
+      "caption": "🎬 **Kino nomi:**  🎬   Moana 3\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
-    "3019": {
-      "file_id": "BAACAgQAAxkBAAIJdGrKPrnlP-YG0ZhuJQ1Gk0xqHlpaAAIBEQAC6ReRUbJj7L7lobUMPQQ",
-      "caption": "🎬 **Kino nomi:**  🎬 Madagaskar 2  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+    "3015": {
+      "file_id": "BAACAgQAAxkBAAIG-GrGrCz7USaNKEL_9i3ndugXQgZnAAJCEAAC-i4JUAezGaO6lbmZPQQ",
+      "caption": "🎬 **Kino nomi:**  🎬   Bolt\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   },
-    "3020": {
-      "file_id": "BAACAgQAAxkBAAIJdmrKPrmwTKMrhi5zf3AdDqj9GDSKAAJkGAACgz-oU_xXi8uLlpA_PQQ",
-      "caption": "🎬 **Kino nomi:**  🎬 Madagaskar 3  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
-  },
-    "3021": {
-      "file_id": "BAACAgQAAxkBAAIJdWrKPrmdG2Dq6NAGFIcc9K7PKm8VAAL3FwACdzbgUg6jgURtOhJ6PQQ",
-      "caption": "🎬 **Kino nomi:**  🎬 Madagaskar 4  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
-  },
-    "3022": {
-      "file_id": "BAACAgQAAxkBAAIJeGrKPrllec0JWkeu4Sg7liyEq-S9AALaGAADxeBS1b3o9ur3W5U9BA",
-      "caption": "🎬 **Kino nomi:**  🎬 Madagaskar 5  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
-  },
-    "3023": {
-      "file_id": "BAACAgEAAxkBAAIJd2rKPrkCIFx1VNHvmmwN3uRweX6lAALIAwACVWypR5zvtAJ-78OuPQQ",
-      "caption": "🎬 **Kino nomi:**  🎬 Madagaskar yangi yil  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
-  },
-    "3024": {
-      "file_id": "BAACAgQAAxkBAAIJi2rKQHB1RI5X0U0My4bSVlik4qA0AAJhCwAC498gUxeKUAeZKZHyPQQ",
-      "caption": "🎬 **Kino nomi:**  🎬 Ov mavsumi 1  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
-  },
-    "3025": {
-      "file_id": "BAACAgQAAxkBAAIJjWrKQMIoTGN3PiTh8LUBbZS-1R7xAALKCgAC8s0xU9qVo1fG4qkvPQQ",
-      "caption": "🎬 **Kino nomi:**  🎬 Ov mavsumi 2  \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
-  },
-    "3026": {
-      "file_id": "BAACAgIAAxkBAAIJj2rKQQ8dVYIIk0nuFPTep_FiODE9AAJVnwACpFbxSeDePa2SwzowPQQ",
-      "caption": "🎬 **Kino nomi:**  🎬 Sohib Jamol va Maxluq \n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
+    "3016": {
+      "file_id": "BAACAgQAAxkBAAIKkWrQ2L_rvP2AobCVa7IVheG60rgWAALPBwACg95AUtjaCLycidckPQQ",
+      "caption": "🎬 **Kino nomi:**  🎬   Oʻrgimchak Odam: Olamlar Aro\n🎭 **Janr:** Syujet\n⭐️ **Baho:** 10/10\n🍿 Yoqimli tomosha!"
   }
+
 }
+
